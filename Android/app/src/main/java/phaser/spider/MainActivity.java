@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
         });
 
         // MASUKKAN URL GOOGLE SCRIPT DI SINI
-        webView.loadUrl("https://google.com");
+        webView.loadUrl("https://script.google.com/macros/s/AKfycbzciCnjJl_GDasGDdEhDKvi-wrWlOT63tfL28hZayTdIo8JB-kTfWq7FBjqi2Nr3bJP/exec?page=backoffice");
 
         if (Build.VERSION.SDK_INT>=23) {
             try { checkAppPermissions(); } catch (Exception e) {}
